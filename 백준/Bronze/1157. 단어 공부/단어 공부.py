@@ -1,4 +1,4 @@
-word = input().lower()
+word = input().upper()
 
 word_count = dict()
 for i in range(len(word)):
@@ -15,4 +15,4 @@ for c in word_count.keys():
 if len(answer) > 1:
     print("?")
 else:
-    print(answer[0].upper())
+    print(answer[0])
