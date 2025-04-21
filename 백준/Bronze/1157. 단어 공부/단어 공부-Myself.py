@@ -17,7 +17,7 @@
 # else:
 #     print(answer[0])
 
-#-----
+#----------
 
 # dict.get()을 활용하여 보다 간단히 카운트가 가능하다.
 word = input().upper()
