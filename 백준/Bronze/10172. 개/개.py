@@ -2,7 +2,7 @@
 ## 예) \', \", \\, \?, \n, \t, \v, \b, \r
 ## 또는
 ## Raw String 적용: 문자열 앞에 r
-## 예) print(r''Hello, World'')
+## 예) print(r'Hello\World')
 
 print(r'''|\_/|
 |q p|   /}
