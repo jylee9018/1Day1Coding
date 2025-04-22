@@ -1,8 +1,8 @@
 word = input()
 
+# 문자열 슬라이싱 + 조건문 이용
 idx, cnt = 0, 0
 while idx < len(word):
-    # 문자열 슬라이싱 이용
     if word[idx:(idx+1)+1] in ["c=", "c-", "d-", "lj", "nj", "s=", "z="]:
         idx_step = 2
         cnt += 1
